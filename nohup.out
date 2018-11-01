@@ -1,0 +1,77 @@
+Starting reactwithtests_redis-server_1 ... 
+[1A[2KStarting reactwithtests_redis-server_1 ... [32mdone[0m[1BStarting reactwithtests_mysql-server_1 ... 
+[1A[2KStarting reactwithtests_mysql-server_1 ... [32mdone[0m[1B
+> frontent@0.1.0 test /app/docker-compose build --no-cache
+> CI=true react-scripts test --watch=all
+
+FAIL src/App.test.js
+  ✓ renders without crashing (38ms)
+  ✕ Hello test it runs (13ms)
+
+  ● Hello test it runs
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 5
+    Received: 4
+
+       9 | });
+      10 | it('Hello test it runs', () => {
+    > 11 |     expect(4).toBe(5);
+         |               ^
+      12 | });
+      13 | 
+
+      at Object.toBe (src/App.test.js:11:15)
+
+[999D[KTest Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        2.505s
+Ran all test suites.
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Test failed.  See above for more details.
+[0mStarting reactwithtests_redis-server_1 ... 
+[1A[2KStarting reactwithtests_redis-server_1 ... [32mdone[0m[1BStarting reactwithtests_mysql-server_1 ... 
+[1A[2KStarting reactwithtests_mysql-server_1 ... [32mdone[0m[1B
+> frontent@0.1.0 test /app/docker-compose build --no-cache
+> CI=true react-scripts test --watch=all
+
+PASS src/App.test.js
+  ✓ renders without crashing (53ms)
+  ✓ Hello test it runs (4ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        3.938s
+Ran all test suites.
+Starting reactwithtests_redis-server_1 ... 
+[1A[2KStarting reactwithtests_redis-server_1 ... [32mdone[0m[1BStarting reactwithtests_mysql-server_1 ... 
+[1A[2KStarting reactwithtests_mysql-server_1 ... [32mdone[0m[1B
+> frontent@0.1.0 test /app/docker-compose build --no-cache
+> CI=true react-scripts test --watch=all
+
+PASS src/App.test.js
+  ✓ renders without crashing (46ms)
+  ✓ Hello test it runs (4ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        3.363s
+Ran all test suites.
+Starting reactwithtests_redis-server_1 ... 
+[1A[2KStarting reactwithtests_redis-server_1 ... [32mdone[0m[1BStarting reactwithtests_mysql-server_1 ... 
+[1A[2KStarting reactwithtests_mysql-server_1 ... [32mdone[0m[1B
+> frontent@0.1.0 test /app/docker-compose build --no-cache
+> CI=true react-scripts test --watch=all
+
+PASS src/App.test.js
+  ✓ renders without crashing (158ms)
+  ✓ Hello test it runs (7ms)
+
+[999D[KTest Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        4.916s
+Ran all test suites.
