@@ -1,0 +1,2 @@
+# ReactWithTests
+DeployOnlyOnTestsSuccesses
