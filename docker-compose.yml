@@ -14,8 +14,6 @@ services:
       MYSQL_ROOT_PASSWORD: root
     expose:
       - 3306
-    ports:
-      - 3306:3306
     links: 
       - redis-server:redis-server   
   # node-app:
@@ -33,7 +31,7 @@ services:
     restart: always
     build: .
     ports:
-     - "3100:3000"
+     - "3111:3000"
     command:  [npm, test]   
     
 
